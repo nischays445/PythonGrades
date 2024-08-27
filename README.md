@@ -1,24 +1,11 @@
 # Python_Grades
 
 #### Description:
-Python_Grades is a Python program that uses CSV files to create a gradebook for educators seeking a simple, minimalist approach. The program initializes a new gradebook object with a custom name, creates a CSV file to store the data, and provides a menu with the following options:
-
-- **0**: Add a student.
-- **1**: Delete a student by ID.
-- **2**: View student information by ID.
-- **3**: Wipe the entire gradebook.
-- **4**: Change student information.
-- **5**: Display the contents of the gradebook.
-- **6**: Calculate a final grade.
-- **7**: Validate an email address.
-- **8**: Generate a random 5-digit student ID.
-- **9**: Exit the program.
-
-A test file using `pytest` is included to ensure that the core methods function as intended.
+Python_Grades is a Python program that manages a gradebook using CSV files. It allows educators to add, delete, and view student information, as well as calculate grades and validate email addresses. The program provides a menu-driven interface for easy interaction.
 
 #### How to Install:
 
-1. **Ensure you have Python installed:**
+1. **Ensure Python is installed:**
    - Check if Python is installed by running:
      ```bash
      python --version
@@ -37,8 +24,8 @@ A test file using `pytest` is included to ensure that the core methods function 
      cd PythonGrades
      ```
 
-4. **Install dependencies (if applicable):**
-   - If a `requirements.txt` file is provided, install the dependencies using:
+4. **Install dependencies:**
+   - Install the required packages using:
      ```bash
      pip install -r requirements.txt
      ```
