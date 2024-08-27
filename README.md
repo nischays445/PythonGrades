@@ -1,7 +1,7 @@
 # Python_Grades
 
 #### Description:
-Python_Grades is a Python program that uses CSV files to create a gradebook for educators looking for a simple, minimalist approach. This program starts by initializing a new gradebook object with a custom given name. It then creates a CSV file to store the gradebook data using the user-inputted name and the `.csv` extension. After the user enters the name and what they are trying to do (either view and edit a gradebook or create a new one), the user in the terminal is given the option to enter numbers 0-9 with corresponding options.
+Python_Grades is a Python program that uses CSV files to create a gradebook for educators looking for a simple, minimalist approach. The program initializes a new gradebook object with a custom name, creates a CSV file to store the gradebook data using the user-inputted name and the `.csv` extension. After the user specifies the name and what they want to do (view and edit a gradebook or create a new one), they are given a menu in the terminal with options:
 
 - **0**: Add a student.
 - **1**: Delete a student by ID.
@@ -14,7 +14,7 @@ Python_Grades is a Python program that uses CSV files to create a gradebook for 
 - **8**: Generate a random 5-digit student ID.
 - **9**: Exit the program.
 
-A test file is also provided using pytest, so if you wish to modify this program and add methods, you can do so, and the test file will ensure most of the core methods still work as intended.
+A test file using `pytest` is also provided. You can modify the program and add methods, and the test file will ensure that most of the core methods still work as intended.
 
 #### How to Install:
 
@@ -25,20 +25,20 @@ A test file is also provided using pytest, so if you wish to modify this program
      ```
    - If not installed, download and install it from [python.org](https://www.python.org/).
 
-2. **Clone the repository (if applicable):**
+2. **Clone the repository:**
    - Clone this repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/your-repository.git
+     git clone https://github.com/nischays445/PythonGrades.git
      ```
 
 3. **Navigate to the project directory:**
    - Change to the directory containing the `Python_Grades` file:
      ```bash
-     cd path/to/your/repository
+     cd PythonGrades
      ```
 
-4. **Install dependencies:**
-   - If you have a `requirements.txt` file for dependencies, install them using:
+4. **Install dependencies (if applicable):**
+   - If a `requirements.txt` file is provided, install the dependencies using:
      ```bash
      pip install -r requirements.txt
      ```
@@ -56,9 +56,9 @@ A test file is also provided using pytest, so if you wish to modify this program
      ```
 
 2. **Run tests (optional):**
-   - If you want to run the test file to ensure everything is working correctly, use pytest:
+   - To run the test file and ensure everything is working correctly, use:
      ```bash
      pytest test_python_grades.py
      ```
 
-Make sure to replace `path/to/your/repository` and `your-username/your-repository` with the actual path and repository details. Adjust the file names as needed.
+Make sure to adjust the file names and paths as needed. If there are any specific dependencies or setup instructions unique to your project, include those details as well.
