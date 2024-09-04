@@ -1,4 +1,3 @@
-Required Libraries:
 pathlib
 pandas
 email_validator
